@@ -1,0 +1,246 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+.heading h1,h2{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #00ff;
+  
+}
+.heading p{
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.team h1{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #00ff;
+}
+.team-heading {
+  
+  margin-left:40%;
+  margin-right: 40%;
+  border-radius: 25px;
+}
+.team-heading h1{
+  color: purple;
+  font-size: 2em;
+  background-color: #00ffff;
+  border-radius: 25px;
+}
+.team-members{
+  display: flex;
+  gap: 5%;
+  margin-left: 30%;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  height: 300px;
+  margin-right: 0;
+}
+.team-members img {
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+.title{
+  text-align: center;
+}
+.management-team{
+  display: flex;
+  gap: 5%;
+  margin-left: 14%;
+}
+.management-team img {
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+.team-development{
+display: flex;
+margin-left: 10%;
+
+}
+.team-development img {
+width: 200px;
+height: 180px;
+border-radius: 50%;
+margin-bottom: 20px;
+background-color: aqua;
+display: flex;
+
+}
+
+.team-development .column{
+display: flex;
+margin-bottom: 10px;
+padding:10px;
+float: left;
+}
+.team-salesmarketing{
+display: flex;
+margin-left: 10%;
+
+}
+.team-salesmarketing img {
+width: 200px;
+height: 180px;
+border-radius: 50%;
+margin-bottom: 20px;
+background-color: aqua;
+display: flex;
+
+}
+
+.team-salesmarketing .column{
+display: flex;
+margin-bottom: 10px;
+padding:10px;
+float: left;
+}
+.team-heading3 h1{
+justify-content: center;
+text-align: center;
+margin-top: 10px;
+color:purple;
+background-color: #00ffff;
+margin-left:35%;
+margin-right: 30%;
+border-radius: 25px;
+font-size: 2em;
+}
+@media screen and (max-width:600px){
+ 
+
+  .team-heading {
+    margin-left:10%;
+    margin-right: 18%;
+    text-align: center;
+   }
+   .team-heading h1{
+    margin-left: 140px;
+    width: 450px;
+    
+   }
+   .team h1{
+    margin-left: 170px;
+    width: 450px;
+   }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding:50px;
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width:145px;
+    height: 310px;
+    margin-right: 0;
+    
+  }
+  .team-members img {
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: aqua;
+    margin-left:2px;
+  }
+  .team-members{
+    display: flex;
+    gap: 5%;
+    margin-left:0;
+  }
+  .team-members .card{
+    margin-left: 150px;
+  }
+   .management-team{
+    margin-left:50px;
+   }
+   .management-team img {
+    width: 150px;
+    height: 185px;
+    
+    
+  }
+  .team-development img {
+    width: 147px;
+    height: 180px;
+   }
+   .team-development .column{
+    padding:30px;
+  }
+    .team-development{
+      display: flex;
+      margin-left: 1%;
+      
+    }
+    .team-salesmarketing .column{
+      display: flex;
+      margin-bottom: 10px;
+      padding:90px;
+      float: left;
+    }
+    .team-heading3 h1{
+        margin-left: 150px;
+        width: 450px;
+    }
+    .team-salesmarketing{
+          display: flex;
+          margin-left: 1%;
+          
+    }
+    .team-salesmarketing img {
+      width: 143px;
+      height: 180px;
+    }
+    .team-salesmarketing .column{
+     
+      padding:30px;
+      
+      }
+      .heading h1{
+        justify-content: center;
+        text-align: center;
+        margin-left: 200px;
+        width: 450px;
+      }
+      .heading p{
+        width: 450px;
+        margin-left: 200px;
+        height: auto;
+        
+      }
+      .heading h2{
+        width: 500px;
+        margin-left: 150px;
+      }
+     .team-salesmarketing .sls{
+      margin-left: 100px;
+     }
+    
+} 
+  
